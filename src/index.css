@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2b4f71;
+}
+.todos {
+  padding: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 40px;
+  font-size: 45px;
+}
+
+.todo_container {
+  width: 50%;
+  margin: auto;
+  background-color: #657a97;
+  padding: 50px;
+}
+.todo_container form input {
+  width: 70%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+.todo_container form button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  background-color: #c9cfdf;
+  cursor: pointer;
+}
+.todo_container ul {
+  list-style: none;
+}
+.todo_container ul li {
+  padding: 10px 0px;
+  font-size: 17px;
+  color: #fff;
+}
+.todo_container ul li input {
+  cursor: pointer;
+}
+.todo_container ul li button {
+  border: none;
+  padding: 5px 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.todo_container .line {
+  text-decoration: line-through;
+}
